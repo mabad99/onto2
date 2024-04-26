@@ -1,0 +1,139 @@
+{
+  "@context" : {
+    "hasPublished" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasPublished",
+      "@type" : "@id"
+    },
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#Country"
+    },
+    "hasAircraft" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasAircraft",
+      "@type" : "@id"
+    },
+    "Comment_Title" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Comment_Title"
+    },
+    "Evaluation_Ground_Service" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Ground_Service"
+    },
+    "Comment_desc" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Comment_desc"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasDestination",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Detractor" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#Detractor"
+    },
+    "Destination" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Destination"
+    },
+    "Type_Of_Traveller" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Type_Of_Traveller"
+    },
+    "Seat_Type" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Seat_Type"
+    },
+    "Origin" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Origin"
+    },
+    "hasOverallRating" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasOverallRating"
+    },
+    "Evaluation_Inflight_Entertainment" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Inflight_Entertainment"
+    },
+    "Date" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#Date"
+    },
+    "hasDate" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasDate",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "Passenger" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Passenger"
+    },
+    "Survey" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#Survey"
+    },
+    "Promoter" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#Promoter"
+    },
+    "isVerified" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#isVerified"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Aircraft"
+    },
+    "Evaluation_Wifi_Connectivity" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Wifi_Connectivity"
+    },
+    "hasSeatType" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasSeatType",
+      "@type" : "@id"
+    },
+    "hasTypeOfTravel" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasTypeOfTravel",
+      "@type" : "@id"
+    },
+    "Airline" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/untitled-ontology-2#Airline"
+    },
+    "Evaluation_Seat_Comfort" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Seat_Comfort"
+    },
+    "Evaluation_Food_Beverages" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Food_Beverages"
+    },
+    "Evaluation_Value_For_Money" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Value_For_Money"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#City"
+    },
+    "hasDateFlown" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasDateFlown",
+      "@type" : "@id"
+    },
+    "Neutral" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#Neutral"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasOrigin",
+      "@type" : "@id"
+    },
+    "hasAirline" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasAirline",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Evaluation_Cabin_Staff_Service" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/MAFirstOntology#Evaluation_Cabin_Staff_Service"
+    },
+    "NPS" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#NPS"
+    },
+    "hasCountry" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasCountry",
+      "@type" : "@id"
+    },
+    "hasPassenger" : {
+      "@id" : "http://www.semanticweb.org/miquel.abad/ontologies/2024/3/FlightsSurvey#hasPassenger",
+      "@type" : "@id"
+    }
+  }
+}
