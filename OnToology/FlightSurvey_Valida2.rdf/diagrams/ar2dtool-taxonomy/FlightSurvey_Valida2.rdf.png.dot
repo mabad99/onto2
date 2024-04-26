@@ -1,0 +1,20 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; ":Evaluation_Inflight_Entertainment" ":Evaluation_Ground_Service" ":Destination" "FlightsSurvey:Neutral" "FlightsSurvey:Detractor" ":Evaluation_Food_Beverages" "FlightsSurvey:NPS" ":Evaluation_Cabin_Staff_Service" ":Evaluation_Seat_Comfort" "FlightsSurvey:Promoter" ":Origin" ":Evaluation_Value_For_Money" ":Comment_Title" ":Evaluation_Wifi_Connectivity" "FlightsSurvey:City" ":Comment_desc" "FlightsSurvey:Survey" ; /*classes style*/
+	"FlightsSurvey:Promoter" -> "FlightsSurvey:NPS" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Ground_Service" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Comment_desc" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Value_For_Money" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Wifi_Connectivity" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Seat_Comfort" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Origin" -> "FlightsSurvey:City" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Inflight_Entertainment" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Food_Beverages" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Comment_Title" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	"FlightsSurvey:Detractor" -> "FlightsSurvey:NPS" [ label = "rdfs:subClassOf" ];
+	"FlightsSurvey:Neutral" -> "FlightsSurvey:NPS" [ label = "rdfs:subClassOf" ];
+	":Evaluation_Cabin_Staff_Service" -> "FlightsSurvey:Survey" [ label = "rdfs:subClassOf" ];
+	":Destination" -> "FlightsSurvey:City" [ label = "rdfs:subClassOf" ];
+
+}
